@@ -1,0 +1,235 @@
+checkbox.png
+.checkbox .jquery-checkbox,
+.checkbox-inline .jquery-checkbox,
+.radio .jquery-radio,
+.radio-inline .jquery-radio{
+	margin:0 5px 0 0;
+	float:left; /* @praveen*/
+}
+label.checkbox .jquery-checkbox,
+label.checkbox-inline .jquery-checkbox,
+label.radio .jquery-radio,
+label.radio-inline .jquery-radio,
+.checkbox label .jquery-checkbox,
+.checkbox-inline label .jquery-checkbox,
+.radio label .jquery-radio,
+.radio-inline label .jquery-radio{
+	/*margin:0 5px 0 -20px;*/
+	margin:0 10px 0 -20px !important; /* @praveen*/
+}
+
+.jquery-checkbox,
+.jquery-radio {
+	display: inline;
+	font-size: 20px;
+	line-height: 20px;
+	cursor: pointer;
+	cursor: hand;
+	margin:0 5px 0 0;
+}
+.jquery-checkbox2 .mark,
+.jquery-radio2 .mark,
+.jquery-checkbox .mark,
+.jquery-radio .mark {
+	display: inline;
+	background:none;
+}
+.jquery-checkbox img,
+.jquery-radio img {
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+}
+.jquery-checkbox img,
+.jquery-radio img {
+	background: transparent url(../img/checkbox.png) no-repeat;
+}
+.jquery-checkbox img {
+	background-position: 0px 0px;
+}
+.jquery-checkbox-hover img {
+	background-position: -20px 0;
+}
+.jquery-checkbox-checked img {
+	background-position: -40px 0;
+}
+.jquery-checkbox-checked .jquery-checkbox-hover img {
+	background-position: -40px 0;
+}
+.jquery-checkbox-disabled img {
+	background-position: -60px 0;
+}
+.jquery-checkbox-checked .jquery-checkbox-disabled img {
+	background-position: -80px 0;
+}
+
+
+
+.jquery-radio img {
+	background-position: 0px -20px;
+}
+.jquery-radio-hover img {
+	background-position: -20px -20px;
+}
+.jquery-radio-checked img {
+	background-position: -40px -20px;
+}
+.jquery-radio-checked .jquery-checkbox-hover img {
+	background-position: -40px -20px;
+}
+.jquery-radio-disabled img {
+	background-position: -60px -20px;
+}
+.jquery-radio-checked .jquery-checkbox-disabled img {
+	background-position: -80px -20px;
+}
+
+
+/***/
+.jquery-switch img{
+	vertical-align: middle;
+	width: 62px;
+	height: 25px;
+	transition:all ease-out 0.2s;
+}
+
+
+.jquery-switch img {
+	background:url(../img/switch.png) no-repeat 0 0;
+}
+.jquery-switch-hover img {
+}
+.jquery-switch-checked img {
+	background-position: -62px 0;
+}
+.jquery-switch-checked .jquery-switch-hover img {
+}
+.jquery-switch-disabled img {
+}
+.jquery-switch-checked .jquery-checkbox-disabled img {
+}
+
+
+
+
+/***/
+
+.jquery-checkbox2,
+.jquery-radio2 {
+	float:left;
+	margin-left:0;
+}
+
+.jquery-checkbox2 img,
+.jquery-radio2 img {
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+}
+.jquery-checkbox2 img,
+.jquery-radio2 img {
+	background: transparent url(../img/checkbox2.png) no-repeat;
+}
+.jquery-checkbox2 img {
+	background-position: 0px 0px;
+}
+.jquery-checkbox2-hover img {
+	background-position: -25px 0;
+}
+.jquery-checkbox2-checked img {
+	background-position: -50px 0;
+}
+.jquery-checkbox2-checked .jquery-checkbox2-hover img {
+	background-position: -50px 0;
+}
+.jquery-checkbox2-disabled img {
+	background-position: -50px 0;
+}
+.jquery-checkbox2-checked .jquery-checkbox2-disabled img {
+	background-position: -80px 0;
+}
+
+
+
+.jquery-radio2 img {
+	background-position: 0px -25px;
+}
+.jquery-radio2-hover img {
+	background-position: -25px -25px;
+}
+.jquery-radio2-checked img {
+	background-position: -50px -25px;
+}
+.jquery-radio2-checked .jquery-radio2-hover img {
+	background-position: -50px -25px;
+}
+.jquery-radio2-disabled img {
+	background-position: -75px -25px;
+}
+.jquery-radio2-checked .jquery-radio2-disabled img {
+	background-position: -100px -25px;
+}
+
+/** Edited by sunil on 18-08-2016**/
+
+.jquery-radio3 {
+	display: inline;
+	font-size: 20px;
+	line-height: 20px;
+	cursor: pointer;
+	cursor: hand;
+	margin:0 5px 0 0;
+}
+.jquery-radio3 .mark {
+	display: inline;
+	background:none;
+}
+.jquery-checkbox3,
+.jquery-radio3 {
+	float:left;
+	margin-left:0;
+}
+
+.jquery-checkbox3 img,
+.jquery-radio3 img {
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+}
+.jquery-checkbox3 img,
+.jquery-radio3 img {
+	background: transparent url(../img/checkbox3.png) no-repeat;
+}
+
+.jquery-radio3 img {
+	background-position: 0px -20px;
+}
+.jquery-radio3-hover img  {
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	background: transparent url(../img/checkbox.png) no-repeat;
+	background-position: -40px -20px;
+}
+.jquery-radio3-checked img {
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	background: transparent url(../img/checkbox3.png) no-repeat;
+	
+	background-position: -40px -20px;
+}
+.jquery-radio3-checked .jquery-checkbox3-hover img {
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	background: transparent url(../img/checkbox3.png) no-repeat;
+	
+	background-position: -40px -20px;
+}
+.jquery-radio3-disabled img {
+	background-position: -60px -20px;
+}
+.jquery-radio3-checked .jquery-checkbox3-disabled img {
+	background-position: -80px -20px;
+}
